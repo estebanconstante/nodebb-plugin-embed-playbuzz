@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-embed-playbuzz",
+  "name": "NodeBB Embed Playbuzz",
+  "description": "Plugin to add quizzes, articles and polls from the popular web Playbuzz",
+  "url": "https://github.com/estebanconstante/nodebb-plugin-embed-playbuzz",
+  "library": "./plugin/index.js",
+  "hooks": [
+      {
+      "hook": "filter:parse.post",
+      "method": "parsePlayBuzz", "callbacked": true
+    }
+  ]
+}

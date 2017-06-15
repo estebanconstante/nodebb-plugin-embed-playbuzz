@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-embed-playbuzz",
+  "version": "0.0.1",
+  "description": "Embed PlayBuzz Items on your nodeBB posts.",
+  "main": "./plugin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanconstante/nodebb-plugin-embed-playbuzz.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "playbuzz",
+    "embed"
+  ],
+  "author": "Esteban Constante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanconstante/nodebb-plugin-embed-playbuzz/issues"
+  },
+  "homepage": "https://github.com/estebanconstante/nodebb-plugin-embed-playbuzz#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "lodash": "^4.15.0",
+    "object-assign": "^4.1.0"
+  },
+  "nbbpm": {
+    "compatibility": "^1.5.1"
+  }
+}
