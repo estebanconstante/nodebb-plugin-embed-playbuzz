@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-embed-playbuzz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Embed PlayBuzz Items on your nodeBB posts.",
   "main": "./plugin/index.js",
   "scripts": {
